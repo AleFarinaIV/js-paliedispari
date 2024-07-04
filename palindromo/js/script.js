@@ -9,4 +9,9 @@ function isPalindrome(str) {
         console.log(str[i])
         strVoid += str[i]
     }
+    if (strVoid === str) {
+        console.log('Questa è una parola palindroma')
+    }else {
+        console.log('Questa non è una parola palindroma')
+    }
 }
