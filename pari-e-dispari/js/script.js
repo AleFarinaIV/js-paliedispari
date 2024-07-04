@@ -17,3 +17,17 @@ if ((evenOrOdd.toLowerCase() === "pari") || (evenOrOdd.toLowerCase() === "dispar
 }else {
     console.log('Devi inserire "pari" o "dispari"')
 }
+
+function sumAndResult(random, number) {
+    console.log("Il computer ha scelto il numero :", random)
+    let sum = random + number;
+    console.log("La sommma dei numeri scelti è :", sum)
+    let result = '';
+    if (sum % 2 === 0) {
+       result = 'pari';
+       return result
+    } else {
+       result = 'dispari';
+       return result
+    }
+}
