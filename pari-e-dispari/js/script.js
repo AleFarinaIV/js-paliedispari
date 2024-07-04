@@ -14,4 +14,6 @@ if ((evenOrOdd.toLowerCase() === "pari") || (evenOrOdd.toLowerCase() === "dispar
     } else {
         console.log('Devi inserire un numero tra 1 e 5')
     }
+}else {
+    console.log('Devi inserire "pari" o "dispari"')
 }
