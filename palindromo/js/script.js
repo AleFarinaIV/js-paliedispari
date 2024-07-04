@@ -15,3 +15,6 @@ function isPalindrome(str) {
         console.log('Questa non è una parola palindroma')
     }
 }
+
+let string = prompt('Inserisci qui una parola')
+let result = isPalindrome(string)
